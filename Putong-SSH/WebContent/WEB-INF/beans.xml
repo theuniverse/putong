@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="comment" class="com.adweb.putong.impl.beans.Comment" scope="prototype" />
+	<bean id="image" class="com.adweb.putong.impl.beans.Image" scope="prototype" />
+	<bean id="user" class="com.adweb.putong.impl.beans.User" scope="prototype" />
+	<bean id="video" class="com.adweb.putong.impl.beans.Video" scope="prototype" />
+	<bean id="weibo" class="com.adweb.putong.impl.beans.Weibo" scope="prototype" />
+	<bean id="mail" class="com.adweb.putong.impl.beans.Mail" scope="prototype" />
+	<bean id="message" class="com.adweb.putong.impl.beans.Message" scope="prototype" />
+	<bean id="chatroom" class="com.adweb.putong.impl.beans.Chatroom" scope="prototype" />
+	<bean id="record" class="com.adweb.putong.impl.beans.Record" scope="prototype" />
+	<bean id="blocksite" class="com.adweb.putong.impl.beans.BlockSite" scope="prototype" />
+	<bean id="blockuser" class="com.adweb.putong.impl.beans.BlockUser" scope="prototype" />
+	<bean id="sysparam" class="com.adweb.putong.impl.beans.SysParam" scope="prototype" />
+
+	<bean id="event" class="com.adweb.putong.impl.beans.events.Event" scope="prototype" />
+	<bean id="commentEvent" class="com.adweb.putong.impl.beans.events.CommentEvent" scope="prototype" />
+	<bean id="followerEvent" class="com.adweb.putong.impl.beans.events.FollowerEvent" scope="prototype" />
+	<bean id="weiboEvent" class="com.adweb.putong.impl.beans.events.WeiboEvent" scope="prototype" />
+	<bean id="recordEvent" class="com.adweb.putong.impl.beans.events.RecordEvent" scope="prototype" />
+
+</beans>

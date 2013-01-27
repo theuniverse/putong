@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+body{
+	background: url(../image/background2.jpg) no-repeat fixed;
+}
+
+table{
+	color: #333333;
+	font-size: 14px;
+}
+
+input[type="submit"] {
+	border: 1px solid #dddddd !important;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	padding: 6px 20px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',	endColorstr='#eeeeee' );
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),to(#eeeeee) );
+	background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	color: #999999;
+	position: relative;
+	top: -1px;
+	font-family: sans-serif;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+select{
+	border: 1px solid #dddddd !important;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	padding: 6px 20px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',	endColorstr='#eeeeee' );
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),to(#eeeeee) );
+	background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	color: #999999;
+	position: relative;
+	top: -1px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+input[type="text"],input[type="password"] {
+	border: 1px none transparent !important;
+	border-radius: 3px;
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, .2), inset 0 1px 1px	rgba(0, 0, 0, .1);
+	padding: 7px 7px 5px;
+	font-family: sans-serif;
+	outline: none;
+	margin-bottom: 5px;
+}
+
+div.content{
+	width:85%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+div#content-frame{
+	width: 600px;
+	min-height: 300px;
+	background: url("../image/back.png");
+	position:relative;
+	border: 1px solid #eeeeee;
+	box-shadow: 0 2px 2px #dddddd;
+	border-radius: 4px;	
+	padding-bottom: 30px;
+	margin: 40px auto;
+	//opacity: 0.75;
+	text-align: center;
+}
+
+div.header{
+	float:left;
+}
+
+div.title{
+	font-size: 20px;
+	font-weight: 600;
+	margin:100px auto 20px;
+}
+
+div.admin-title{
+	font-size: 20px;
+	font-weight: 600;
+	margin:15px auto 20px;
+}
+
+table{
+	border-collapse: collapse;
+	width:100%;
+	
+}
+
+table tr{
+	vertical-align: top;
+	text-align:left;
+}
+
+table.showlist{
+	border: 1px solid #dddddd;
+	width: 100%; margin: 0 auto;
+}
+
+table.showlist th{
+	background:#eeeeee;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>putong</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.adweb.putong.chat.servlet.ChatServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+	    <servlet-name>AdminLoginServlet</servlet-name>
+	    <url-pattern>/chat</url-pattern>
+	  </servlet-mapping>
+	
+	<context-param>
+		<param-name>PUTONG_SERVICE_URL</param-name>
+		<param-value>https://localhost:8443/new-putong/</param-value>
+		<!-- <param-value>http://localhost:1990/twitter/</param-value> -->
+	</context-param>
+</web-app>
